@@ -32,11 +32,11 @@ If you plan to implement or fix it yourself, assign yourself to the issue. If no
 
 **3. Create a new branch into the forked project.**
 
-Feature branches are named feature/issueno-short-desc (e.g. feature/1234-update-notifications references into issue https://github.com/Metatavu/eDelphi/issues/1234). Hotfix branches (bug branches) are named similarly as hotfix/issueno-short-desc (e.g. hotfix/2345-incorrect-color references into issue https://github.com/Metatavu/eDelphi/issues/2345)
+Feature branches are named feature-#issueno-short-desc (e.g. feature-#1234-update-notifications references into issue https://github.com/Metatavu/eDelphi/issues/1234). Hotfix branches (bug branches) are named similarly as hotfix-#issueno-short-desc (e.g. hotfix-#2345-incorrect-color references into issue https://github.com/Metatavu/eDelphi/issues/2345)
 
 Command for creating new branches is as follows: 
 
-    git checkout develop -b feature/issueno-short-desc
+    git checkout develop -b feature-#issueno-short-desc
 
 **4. Push your branch into your fork**
 
